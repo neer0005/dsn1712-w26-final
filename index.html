@@ -4,43 +4,137 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DoughP</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header><img src="images/doughp-logo.webp" alt="DoughP Logo">
+    <header><img id="logo" src="images/doughp-logo.webp" alt="DoughP Logo">
        <nav> 
-        <a href="#">SHOP</a>
-        <a href="#">About Us</a>
-       </nav>
+        <ul>
+            <li><a href="#">SHOP</a></li>
+            <li><a href="#">ABOUT US</a></li>
+        </ul>
+        </nav> 
     </header>
 
     <main>
-        <div>
-        <img src="images/product-shot-1.webp" alt="Bag of DoughP">
-        <img src="images/product-shot-2.webp" alt="Bag of DoughP">
-        <img src="images/product-shot-3.webp" alt="Tub of DoughP">
-        <img src="images/product-shot-4.webp" alt="Tub of DoughP">
+
+        <section>
+            <div class="wrapper">
+
+                <div class="hero">
+                    <div class="grid1">
+                        <img class="p1" src="images/product-shot-1.webp" alt="Bag of DoughP">
+                        <img class="p2" src="images/product-shot-2.webp" alt="Bag of DoughP">
+                        <img class="p3" src="images/product-shot-3.webp" alt="Tub of DoughP">
+                        <img class="p4" src="images/product-shot-4.webp" alt="Tub of DoughP">
+                    </div>
+                    
+                    <div class="sweetheart">
+                        <h1>Sweetheart's Affair</h1>
+                        <strong class="Limited-edition">LIMITED EDITION</strong>
+                        <p>
+                        Red Velvet Cupcake, Peanut Butter Kiss and Chocolate Chip </p>
+                        <p>$55.00</p>
+                        <p>Introducing our delectable trio of cookie dough flavors guaranteed to tantalize your taste buds like never before! Unveiling the ultimate indulgence in every bite, our cookie dough pack offers a divine selection of three mouthwatering flavors.</p>
+                        <p>Whether you're craving a classic favorite or eager to embark on a culinary journey, this trio has something for everyone. So go ahead, treat yourself to the ultimate cookie dough experience and discover pure bliss in every spoonful!</p>
+                        <a class="btn" href="#">Add to Cart</a>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section>
+    
+            <div class="wrapper">
+                <div class="grey">
+                    <div class="btd">
+                        <h2>Behind the Dough</h2>
+
+                        <div class="d2">
+                            <p>Here's the scoop from Doughp's founder on how this flavor came to be: "I first made Red Velvet on a total whim, just a few months into business in 2017. One day, while mixing up Doughp at our original commercial kitchen in Oakland, I left to grab some lunch at a nearby bakery.</p>
+                            <p>I saw an absolutely delicious-looking red velvet cake in their dessert case and immediately thought: I NEED to know what this tastes like in cookie dough! I bought the cake and mixed it right into a small 5lb batch of Doughp; cream cheese frosting, cake and all! HEAVEN by the spoonful!"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section>
+        <div class="wrapper">
+            <div class="blackbckgrnd">
+                <div class="wpas">
+                    <h2 id="h2white">What people are saying</h2>
+                    
+                    <div class="reviews">
+                        <div class="blockq">
+                            <blockquote>
+                            "It's just so Doughp! I didn't know what to expect, but I am so addicted now. Every flavor was delicious and I honestly cant wait to try even more!"</blockquote>
+
+                            <cite class="c1">Andrew J.</cite>
+                        </div>
+
+                        <div class="blockq">
+                            <blockquote>Great product. Absolutely loved Doughp. Tasted great, came quickly and I love a good cause. Was happy I chose the four pack so that I could try a few flavors.</blockquote>
+
+                            <cite class="c1">Emely W.</cite>
+                        </div>
+
+                        <div class="blockq">
+                            <blockquote>"Life changing! This is something you absolutely need to indulge in. Our entire family is obsessed."</blockquote>
+
+                            <cite class="c1">Ana S.</cite>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+        </section>
 
-        <div>
-            <h1>Sweetheart's Affair</h1>
-            <h2 class="Limited-edition">Limited Edition</h2>
-            <p>
-            Red Velvet Cupcake, Peanut Butter Kiss and Chocolate Chip </p>
-            <p>$55.00</p>
-            <p>Introducing our delectable trio of cookie dough flavors guaranteed to tantalize your taste buds like never before! Unveiling the ultimate indulgence in every bite, our cookie dough pack offers a divine selection of three mouthwatering flavors.</p>
-            <p>Whether you're craving a classic favorite or eager to embark on a culinary journey, this trio has something for everyone. So go ahead, treat yourself to the ultimate cookie dough experience and discover pure bliss in every spoonful!</p>
-            <a class="btn" href="#">Add to Cart</a>
+        <div class="wrapper">
+            <div class="tiw">
+                <h2>Try it with...</h2>
+                <div class="grid2">
 
+                    <div class="card1">
+                    <img src="images/ride-or-die.webp" alt="tub of Ride or Die flavor">
+                    <h3>Ride or Die</h3>
+                    <p>$17.00</p>
+                    </div>
+
+                    <div class="card2">
+                    <img src="images/brownie-beast.webp" alt="tub of Brownie Beast flavor">
+                    <h3>Brownie Beast</h3>
+                    <p>$17.00</p>
+                    </div>
+
+                    <div class="card3">
+                    <img src="images/cookie-monsta.webp" alt="tub of Cookie Monsta flavor">
+                    <h3>Cookie Monsta</h3>
+                    <p>$17.00</p>
+                    </div>
+
+                    <div class="card4">
+                    <img src="images/smores.webp" alt="tub of S'mores flavor">
+                    <h3>S'mores</h3>
+                    <p>$17.00</p>
+                    </div>
+
+                </div>
+            </div>
         </div>
-
-        <div class="section-2">
-            <h2 class="Behind-the-Dough">Behind the Dough</h2>
-            <p>Here's the scoop from Doughp's founder on how this flavor came to be: "I first made Red Velvet on a total whim, just a few months into business in 2017. One day, while mixing up Doughp at our original commercial kitchen in Oakland, I left to grab some lunch at a nearby bakery.</p>
-            <p>I saw an absolutely delicious-looking red velvet cake in their dessert case and immediately thought: I NEED to know what this tastes like in cookie dough! I bought the cake and mixed it right into a small 5lb batch of Doughp; cream cheese frosting, cake and all! HEAVEN by the spoonful!"</p>
-        </div>
-
 
     </main>
+    <footer>
+        <p>Not the actual Doughp website. For educational purposes.</p>
+    </footer>
     
 </body>
 
